@@ -1,0 +1,82 @@
+
+body { 
+	font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", sans-serif; 
+}
+/*
+#contentContainer {
+    width: 550px;
+    height: 350px;
+    border: 5px black solid;
+    overflow: hidden;
+}
+*/
+.wrapper {
+    width: 2200px;
+	/*transform: translate(0px, 0px);*/
+}
+.content {
+    float: left;
+    width: 550px;
+    height: 350px;
+    white-space: normal;
+    background-repeat: no-repeat;
+	display: none;
+}
+
+div.active {
+	display: block;
+}
+
+/* #itemOne {
+    background-color: #ADFF2F;
+    background-image: url("../images/blueSquare.png");
+}
+#itemTwo {
+    background-color: #FF7F50;
+    background-image: url("../images/yellowSquare.png");
+}
+#itemThree {
+    background-color: #1E90FF;
+    background-image: url("../images/pinkSquare.png");
+}
+#itemFour {
+    background-color: #DC143C;
+    background-image: url("../images/graySquare.png");
+} */
+
+.navLinks {
+    text-align: center;
+    width: 550px;
+}
+
+.navLinks ul {
+	margin: 0px;
+	padding: 0px;
+	display: inline-block;
+	margin-top: 6px;
+}
+
+.navLinks ul li {
+	float: left;
+	text-align: center;
+	margin: 10px;
+	list-style: none;
+	cursor: pointer;
+	background-color: #CCCCCC;
+	padding: 5px;
+	border-radius: 50%;
+	border: black 5px solid;
+}
+
+.navLinks ul li:hover {
+	background-color: #FFFF00;
+}
+.navLinks ul li.active {
+	background-color: #333333;
+	color: #FFFFFF;
+	outline-width: 7px;
+}
+.navLinks ul li.active:hover {
+	background-color: #484848;
+	color: #FFFFFF;
+}

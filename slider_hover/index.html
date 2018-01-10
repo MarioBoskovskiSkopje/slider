@@ -1,0 +1,31 @@
+<html>
+
+<head>
+	<title>Working with objects</title>
+	
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<link href="mySlider/css/style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+	<div class="slider">
+		<img src="images/blueSquare.png" title="Blue Square" />
+		<img src="images/yellowSquare.png" title="Yellow Square" />
+		<img src="images/pinkSquare.png" title="Pink Square" />
+		<img src="images/graySquare.png" title="Gray Square" />
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	<script type="text/javascript" src="mySlider/js/mySlider.js"></script>
+	<script>
+		$(function () {
+			$('.slider').mySlider({
+				// auto: false
+				navLinksPosition: "above"
+			});
+		});
+	</script>
+</body>
+
+</html>
